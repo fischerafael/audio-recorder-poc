@@ -40,6 +40,7 @@ export const AudioRecorder = () => {
   return (
     <div>
       <h1>Gravador de Áudio</h1>
+
       <button onClick={isRecording ? stopRecording : startRecording}>
         {isRecording ? "Parar Gravação" : "Iniciar Gravação"}
       </button>
